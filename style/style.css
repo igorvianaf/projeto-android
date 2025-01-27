@@ -30,6 +30,24 @@ body{
     font-family: var(--fonte-padrao);
 }
 
+header > h1{
+    color: var(--tom5);
+    font-family: var(--fonte-destaque);
+    margin-bottom: 40px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.395);
+    font-weight: normal;
+}
+header > p {
+    color: var(--tom5);
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 0px 10px 20px 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.395);
+}
+
 a.externo::after{
     content: '\00A0\1F517';
 }
@@ -73,24 +91,6 @@ header{
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
-}
-
-header > h1{
-    color: var(--tom5);
-    font-family: var(--fonte-destaque);
-    margin-bottom: 40px;
-    font-size: 3em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.395);
-    font-weight: normal;
-}
-header > p {
-    color: var(--tom5);
-    font-size: 1.2em;
-    color: white;
-    max-width: 500px;
-    margin: auto;
-    padding: 0px 10px 20px 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.395);
 }
 
 nav{
